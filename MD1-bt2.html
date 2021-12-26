@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let R = +prompt('nhập bán kính đường tròn', '')
+
+    let Shinhtron = Math.pow(R, 2) *Math.PI;
+    let Chinhtron = 2 * R * Math.PI;
+
+    function tinhShinhtron(){
+        document.write('Diện tích hình tròn ='+Shinhtron)
+    }
+    tinhShinhtron()
+
+    function tinhChinhtron(){
+        document.write('Chu vi hình tròn ='+Chinhtron)
+    }
+    tinhChinhtron()
+</script>
+</body>
+</html>
